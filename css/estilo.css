@@ -1,0 +1,44 @@
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+	background: url("https://images.unsplash.com/photo-1577760263010-ebfa5798337c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=871&q=80")no-repeat center fixed;
+    font-family: Calibri;
+    
+	background-size: cover;
+}
+
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+}
+ input{
+	 background-color:greenyellow;
+	 padding: 10px 50px;
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-family: cursive ;
+	 font-style: oblique;
+	
+ }
+.boton{
+	background-color: indigo;
+	font-size: larger;
+	font-family: cursive;
+	border-radius: 25% 10%;
+
+}
+
+h2{
+	color:rgba(250, 60, 2, 0.932);
+	font-family: cursive;
+}
+::placeholder{
+	color: rgb(0, 3, 185);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.datos{
+	font-size: 20px;
+		border-radius: 10px 100px / 120px;}

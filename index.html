@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	
+		<h1>Por favor llena el formulario</h1>
+	<script type="text/javascript" src="js/archivo.js"></script>
+ 
+  <form method="post" onsubmit="return validarForm()">
+    <h2>Usuario  </h2><input  class="datos" type="text"  id="usuario" name="nombre" placeholder=" Ingrese su nombre" ></label>
+     <h2> Su edad  </h2> <input  class="datos"type="number" id="numero" name="numero" placeholder="Ingrese la edad"></label>
+     <h2> Fecha de registracion  </h2><input class="datos"  id="fecha" type="date"  name="fecha" placeholder="Ingrese la fecha de registracion"></label>
+      <h2>Contraseña  </h2><input  class="datos"type="password" id="contraseña"name="contraseña" placeholder=" contraseña mayor a 6 caracteres"><br></label>
+      <h2> Telefono  </h2><input class="datos" type="number"  id="telefono" name="telefono" placeholder="Ingrese un telefono mayor a 9 digitos"><br></label> 
+      <h2>Haga click Aqui  </h2><input type="button"  id=""value="Valide sus datos" onclick="validarForm()" class="boton"></label>
+    
+  </form>
+
+</body>
+</html>
